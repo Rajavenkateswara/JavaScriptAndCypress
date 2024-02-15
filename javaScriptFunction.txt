@@ -1,0 +1,24 @@
+*Java Script Function*:-
+ A Java Script Function is Block of statements which will perform Specific task
+ A Java Script Function executed when "Someting" invokes it (Calls it)
+ 
+
+
+ Function name(parameters1 , parameters2,parameters3){
+
+    // statements to be executed
+ }
+
+ WHY Function ?
+
+ YOU CAN REUSE THE CODE , DEFINE THE CODE ONCE AND USE MANY TIMES
+
+ YOU CAN USE THE SAME CODE MANY TIMES WITH DIFFERENT PARAMETERS (ARUGUMENTS ),TO PRODUCE DIFFERENT RESULTS
+
+ THE CODE INSIDE FUNCTION WILL EXECUTED WHEN SOMETHING INVOKES THE FUNCTION-->
+
+ -WHEN AN EVENT OCCURES (WHEN USER CLICK ON BUTTON)
+ - WHEN IT IS INVOKED (CALLED ) FROM JAVASCRIPT CODE
+ -AUTOMATICALLY (SELF INVOKED)
+
+ 

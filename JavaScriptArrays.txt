@@ -1,0 +1,8 @@
+
+
+Java Script Arrays
+java scripts arrays are used to store multiple values in a single variables
+
+An array i sa special variable , which can hold more than one value at a time
+
+Let cars = ["saab", "Raja" , "BMW" , "Pulli"]

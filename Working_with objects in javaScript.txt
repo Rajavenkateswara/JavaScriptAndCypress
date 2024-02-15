@@ -1,0 +1,14 @@
+Java Script objects , Proprties and Methods
+Accessing the object Proprties
+Accesing tje object Methods
+for/ in loop objects
+
+OBJECT =>  CARS 
+Proprties like => Model ,Cost,colour,name,Type Etc..
+
+Methods=> cars.start(),cars.stop(), cars.break(),cars.driver()
+
+> all cars have same Proprties , But the property values change from cars to cars
+> All cars have same methods ,But the methods performd at diffrent conditions
+
+

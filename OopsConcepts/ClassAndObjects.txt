@@ -1,0 +1,54 @@
+Class is logical Entity which contains veaibles and Methods
+object is Physical entity and instance of classs
+Methos contains number statements ,some times method can accept arguments
+class also contain constructors
+constructors will be called when create the Object for the class
+
+c:\Users\rajav\OneDrive\Pictures\Screenshots\Screenshot (621).png
+
+
+Encapsulation :-
+
+Encapsulation is defined as the warpping the up of data under single Unit
+it is mechanism thai binds together code and data
+
+The JavaScript Encapsulation is process of binding the data (i--e variables )With Functions acting on that data
+
+
+
+Inheritance :-
+
+class PersonalLoan{
+    //having the 50 methods;
+}
+
+class HomeLoan {
+    //having 50 methods
+}
+
+class VehicleLoan(){
+    //Having 50 methods
+}
+
+Total Methods = 150;
+Development Time is = 150 hours
+
+class Loan{
+
+    // 30 Methods // which is commom for all 3 Loan modules
+}
+
+class PersonalLoan{
+    // 20 methods;
+}
+
+class HomeLoan {
+    //20 methods
+}
+
+class VehicleLoan(){
+    //20 methods
+}
+
+Total Methods : 90
+Development Time is = 90 hours

@@ -1,0 +1,78 @@
+<html>
+
+<head>  Calulator 
+    <body>
+     <input id = "value1"> </input>
+     <input id = "value2" > </input>
+
+     <br>
+
+     <button id = "AddButton" > Add </button>
+     <button id = "substraction" > sub </button>
+     <button id = "Multiplication" > Multiplication</button>
+     <button id = "Remainder"> Remainder </button>
+     <button id = "Square"> Square</button>
+     <p id = "result"> Result </p>
+
+    </body>
+
+    <script>
+
+        document.getElementById("AddButton").onclick = addNumber;
+        document.getElementById("Multiplication").onclick = getMultipleOfTwoNumbers;
+        document.getElementById("substraction").onclick = getDifferenceOfNumber;
+        document.getElementById("Remainder").onclick = getRemainder;
+        document.getElementById("Square").onclick = getSquare;
+
+
+        function addNumber (){
+
+          let a =  document.getElementById("value1").value;
+           let b =  document.getElementById("value2").value;
+          let res = parseInt(a)+parseInt(b);
+
+          document.getElementById("result").innerHTML = res;
+        }
+
+        function getMultipleOfTwoNumbers(){
+           let a =  document.getElementById("value1").value;
+           let b = document.getElementById("value2").value;
+           let res = parseInt(a) * parseInt(b);
+
+           document.getElementById("result").innerHTML = res;
+        }
+
+        function getDifferenceOfNumber(){
+         let a =   document.getElementById("value1").value;
+         let b = document.getElementById("value2").value;
+
+         let res = parseInt(a) - parseInt(b);
+
+         document.getElementById("result").innerHTML = res;
+
+        }
+
+        function getRemainder(){
+         let a =   document.getElementById("value1").value;
+         let b = document.getElementById("value2").value;
+
+         let res = parseInt(a)  % parseInt(b);
+
+         document.getElementById("result").innerHTML = res;
+
+        }
+
+        function getSquare(){
+         let a =   document.getElementById("value1").value;
+         //let b = document.getElementById("value2").value;
+
+         let res = parseInt(a)  *  parseInt(a);
+
+         document.getElementById("result").innerHTML = res;
+
+        }
+        
+
+    </script>
+</head>
+</html>
