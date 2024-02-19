@@ -1,0 +1,2 @@
+In assynchronus programming .java script allows task to be started and continue in the backgroud while the programming
+execute the code .This escpecially useful for the task that may take some time , like fetching data from server or rading the files

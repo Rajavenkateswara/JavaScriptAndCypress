@@ -1,0 +1,5 @@
+
+In sysnchromus programming JavaScript execute code in linear mannner and Sequential Manner.
+Each line of code is executed one after another . and the program waits for each operation to complete before moving to the next.
+This can lead to locking behaviour 
+Where long running operations can cause the entire program or user interface to become unresponsive until those operation finish.
