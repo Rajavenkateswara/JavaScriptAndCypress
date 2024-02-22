@@ -1,0 +1,75 @@
+In javaScript promises are a way to handle asynchronus operations in java a more organized and readable manner
+
+They provide a cleaner sysntax for dealing with asynchronus code compare to traditional call back based approaches
+
+promises are widley used for taskes like making network requests ,reading / writting files , and other operations that dont block the main thread .
+
+A promise represents a value that may not be available yet but will be resolve at some point in the future
+
+it can be in one of three states : Pending ,fullfiled or Rejected
+
+Once a promise is fullfiled or Rejected . its considered settled and its state cannot change
+
+JS promise => Pending with a value -> Resolved
+JS promise => Pending with a Reason ->Rejected
+
+
+I Promise to make a cake for your birthday =====@ 2 -weeks ==== Keyo is healthy  --> I have (n) cakes an I am happy --> ===Either way === We still have party 
+
+
+I Promise to make a cake for your birthday =====@ 2 -weeks ==== Keyo is Sick   --> There is no cake   I am Sad --> ===Either way === We still have party
+
+
+----asynchronus operations :- promises are a way to handle asynchronus operations on javaScript . they provided a strcture for managing and Chaining asynchronus taskes
+
+states :- promises have three ; Pending fullfiled ,and Rejected.
+They start in the Pending state and transition to either fullfiled (if the operation successeds ) or Rejected (it it fails).
+
+callback :- promises use .then() and catch() methods specify callbacks for when the promises fullfiled or Rejected .This promotes a more strctured and readable code flow .
+
+ const promise = new promise (( resolve , reject) => {
+
+    // asynchronus opertions 
+    // if sucessfull , call 'resolve' with the result
+
+    // if an error occures , call with reject with the error
+ })
+
+ myPromise
+
+ .then(result => {
+    // Handle full fill with promise;
+ })
+ .catch (err => {
+    // handle the rejected promise
+ })
+
+
+ Chaining ====> Chaining can be easily chained together using .then() , allowing you to sequence asynchronus operations. This is often reffered to as "promise Chaining" .
+
+ promise()  then()   then1 then2 
+
+
+ Error handling ;- promises have built -in error handling via the . catch() method , making it easy to handle and propgate errors in asynchronus code
+
+
+ promise.all() :- This method taken an array of promises when all the promises in the array have Resolved .its useful for execution of asynchronus taskes
+
+ promise.reace() :- This method taken array of promises and resolve or rejects as soon as one of the promises in the array resolve or rejects .
+ Its usefull for scenarios where you want  to response to the first completed task.
+
+ Asysn/ await :- The aysnc and wait keywords simplify asynchronus code even further , allowing you to write asynchronus code in a more synchronus style.
+
+ Error Propgation : Error in promise chains automatically propagate down to the nearest .catch() handler , making it easier to handle and manage errors 
+
+ BackwordCompatibility : - promises are widley supported in modern javaScript environments , making them as good choice for writting cross - browser and cross platform asynchronus code.
+
+ readable Code :-  promises lead to more readable and maitainable asynchronus code  by avoiding  call back hell (Also known as callBack pyramids)
+
+promise .then () return : - then () returns a new promise , which allows for easy chaining of multiple asynchronus operations .
+
+Cancelable : -Promises are  not inheritantly Cancelable , but there are libraries and pattern to achieve cancelation of asynchronus operations using promises.
+
+microtasks :-  Promises resolution and rejection are handled as microtasks in the java javaScript event loop , which means they have higher priority .
+
+
